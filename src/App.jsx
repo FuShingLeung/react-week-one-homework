@@ -8,7 +8,6 @@ function App() {
       breed: 'German Shepherd',
       picture:
         'https://www.akc.org/wp-content/uploads/2016/06/German-Shepherd-Dog-laying-down-in-the-backyard.jpeg',
-      color: 'blue',
     },
     {
       name: 'Kitty',
@@ -20,7 +19,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <List items={itms} />
+        <List items={itms} color="blue" />
       </div>
     </>
   );

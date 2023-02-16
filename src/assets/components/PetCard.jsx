@@ -1,6 +1,6 @@
 import React from 'react';
 
-function pets({ name, breed, picture, color = 'red' }) {
+function PetCard({ name, breed, picture, color }) {
   return (
     <div
       style={{
@@ -10,9 +10,9 @@ function pets({ name, breed, picture, color = 'red' }) {
     >
       <h1>{name}</h1>
       <p>{`${name} is a ${breed}!`}</p>
-      <img src={picture} alt="" />
+      <img src={picture} alt="" height="200px" />
     </div>
   );
 }
 
-export default pets;
+export default PetCard;

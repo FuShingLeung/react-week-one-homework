@@ -1,9 +1,9 @@
 import React from 'react';
-import Pets from './Pets';
+import PetCard from './PetCard';
 import { nanoid } from 'nanoid';
 import Counter from './Counter';
 
-function list({ items = [] }) {
+function List({ items = [], color }) {
   return (
     <div>
       <h2>List of pets!</h2>
@@ -11,7 +11,7 @@ function list({ items = [] }) {
         {items.map((pet) => (
           <>
             <Counter />
-            <Pets key={nanoid()} {...pet} />
+            <PetCard key={nanoid()} {...pet} color={color} />
           </>
         ))}
       </ul>
@@ -19,4 +19,4 @@ function list({ items = [] }) {
   );
 }
 
-export default list;
+export default List;
