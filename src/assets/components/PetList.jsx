@@ -3,7 +3,7 @@ import PetCard from './PetCard';
 import { nanoid } from 'nanoid';
 import Counter from './Counter';
 
-function List({ items = [], color }) {
+function PetList({ items = [], color }) {
   return (
     <div>
       <h2>List of pets!</h2>
@@ -19,4 +19,4 @@ function List({ items = [], color }) {
   );
 }
 
-export default List;
+export default PetList;

@@ -1,5 +1,5 @@
 import './App.css';
-import List from './assets/components/List';
+import PetList from './assets/components/PetList';
 
 function App() {
   const itms = [
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <List items={itms} color="blue" />
+        <PetList items={itms} color="blue" />
       </div>
     </>
   );
