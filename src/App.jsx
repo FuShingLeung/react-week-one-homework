@@ -6,13 +6,15 @@ function App() {
     {
       name: 'Dog',
       breed: 'German Shepherd',
-      picture: '../src/assets/German-Shepherd.jpeg',
+      picture:
+        'https://www.akc.org/wp-content/uploads/2016/06/German-Shepherd-Dog-laying-down-in-the-backyard.jpeg',
       color: 'blue',
     },
     {
       name: 'Kitty',
       breed: 'Ragdoll Cat',
-      picture: '../src/assets/Ragdoll.jpeg',
+      picture:
+        'https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg',
     },
   ];
   return (
