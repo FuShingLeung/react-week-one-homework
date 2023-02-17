@@ -16,10 +16,13 @@ function App() {
         'https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg',
     },
   ];
+
+  const petBorderColors = ['blue', 'red', 'green', 'orange'];
+
   return (
     <>
       <div className="App">
-        <PetList items={itms} color="blue" />
+        <PetList items={itms} petBorderColors={petBorderColors} />
       </div>
     </>
   );
